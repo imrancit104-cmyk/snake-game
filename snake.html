@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="snake.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake </title>
+</head>
+<body> 
+    
+    <div class="body row container-fluid p-0 m-0">
+        <div class="gameInfo d-flex flex-column align-items-center justify-content-center">
+    <h1 class="score">Score: 0</h1>
+
+    <label class="speedLabel">
+        Speed:
+        <select id="speedSelect">
+            <option value="2">Low</option>
+            <option value="3">Medium</option>
+            <option value="6">High</option>
+            <option value="9">Very High</option>
+        </select>
+    </label>
+</div>
+        <div class="board col-12 col-md-6"></div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
